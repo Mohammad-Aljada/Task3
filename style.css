@@ -1,0 +1,68 @@
+/*Public style*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*navbar*/
+ a{
+    text-decoration: none;
+    color: aliceblue;
+ }
+ .clr{
+    clear: both;
+ }
+ .container{
+    margin: auto;
+    width: 80%;
+ }
+/*navbar*/
+.navbar{
+    background-color: black;
+}
+.logo{
+    float: left;
+    margin-top: 8px;
+}
+.logo img{
+    width: 50%;
+}
+.list{
+    float: right;
+ }
+ .list ul{
+    list-style-type: none;
+    margin-top: 8px;
+ }
+ .list ul li{
+    float:left;
+ }
+ .list ul a{
+    margin-right: 20px;
+    text-transform: uppercase;
+ }
+/*portfolo*/
+.portfolo{
+    background-color: gray;
+    text-align: center;
+
+}
+.portfolo h2{
+    text-transform: uppercase;
+}
+.portfolo p{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 8px;
+}
+.porto-item{
+    width: 33.33%;
+    float: left;
+    padding-right: 30px;
+    background-color: green;
+}
+.porto-item img{
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+}
